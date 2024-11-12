@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--ketika input file wajib menambahkan entype="multipart/form-data"-->
+    <form action="https://formsubmit.co/dilesin2023@gmail.com" method="post" enctype="multipart/form-data">
+        <!--Lable penanda input an ,type untuk menentukan jenis input an,name untuk menentukan kemana data itu masuk,
+        placeholder untuk menampilkan intsruksi-->
+        <label for="Nama">Nama </label>
+        <br>
+        <input type="text" name="nama" placeholder="Masukan Nama Kamu">
+        <br>
+        <br>
+        <label for="Tanggal_Lahir">Tanggal lahir</label>
+        <input type="date" name="tanggal lahir" >
+        <br>
+        <br>
+        <label for="Email">Email</label>
+        <input type="email" name="email" placeholder="Masukan email kamu">
+        <br>
+        <br>
+        <label for="password">Pass</label>
+        <input type="password">
+        <br>
+        <br>
+        <label for="foto_ktp">img</label>
+        <input type="file" name="" id="">
+        <br>
+        <br>
+        <label for="jenis_kelamin">jenis kelamin</label>
+        <select name="jenis_kelamin">
+        <option value="laki">Laki laki</option>
+        <option value="perempuan">perempuan</option>
+    </select>
+    <br>
+    <br>
+    <label for="metode_pembayaran">Metode Pembayaran</label>
+    <input type="radio" name="metode_pembayaran" id="metode_pembayaran" value="cash">
+    <label>Cash</label>
+    <input type="radio" name="metode_pembayaran" id="metode_pembayaran" value="Transfer">
+    <label>Transfer</label>
+    <br>
+    <br>
+    <label for="hobi">hobi</label>
+    <input type="checkbox" name="hobi" value="ngoding">
+    <label>ngoding</label>
+    <input type="checkbox" name="hobi" value="ngoding">
+    <label>masak</label>
+    <br>
+    <label>Alamat</label>
+    <textarea name="alamat" id="" cols="30" rows="10"></textarea>
+
+        <button type="submit">Daftar</button>
+    </form>
+</body>
+</html>
+
+<!--rowspan mengisi row kosong
+colspan menambahkan row kosong
+collaps untuk memperbagus table jadi lurus
+iframe menampilkan alamat video atau web
+name menetukan ke mana data masuk
+value untuk menambahkan input
+value menambhkan option-->

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/linktree/colorful\ gradients_\ Photo.jpeg);
+    background-size: cover;
+}
+
+.gambar-soal{
+    width: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+input {
+    width: 350px;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+button{
+    width: 350px;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+
+
